@@ -56,17 +56,3 @@ int main()
   }
   return 0;
 }
-
-
-
-/*
-N=9
-Depth = N/2 (i)
-Case i==1, ([1,N/2], print " ", (N/2)+1, print "*", [N/2+2, N], print " ")
-Case i==2, ([1, N/2 - i, print " "], [1,i] print "/", (N/2) + 1 , print "|" [1, i], print "\", [1, N/2 - i], print " ")
-Case i==3
-    *    
-  //|\\
- ///|\\\
-////|\\\\
-*/
